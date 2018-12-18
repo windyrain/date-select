@@ -1,0 +1,20 @@
+{
+  "name": "date-select",
+  "version": "1.0.0",
+  "description": "",
+  "main": "date-select.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "scripts": {
+    "watch-range": "babel ./src/date-range-select.es6 --watch --out-file ./date-range-select.js",
+    "watch": "babel ./src/date-select.es6 --watch --out-file ./date-select.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
